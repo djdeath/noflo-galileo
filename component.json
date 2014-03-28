@@ -1,0 +1,29 @@
+{
+  "name": "noflo-galileo",
+  "description": "Intel Galileo Gpio/Pwm components for NoFlo.",
+  "author": {
+    "name": "Lionel Landwerlin",
+    "email": "lionel.g.landwerlin@linux.intel.com"
+  },
+  "repo": "djdeath/noflo-galileo",
+  "version": "0.0.1",
+  "keywords": [
+  ],
+  "dependencies": {
+    "noflo/noflo": "*"
+  },
+  "scripts": [
+    "components/Gpio.coffee",
+    "components/Pwm.coffee",
+    "index.js"
+  ],
+  "json": [
+    "component.json"
+  ],
+  "noflo": {
+    "components": {
+      "Gpio": "components/Gpio.coffee",
+      "Pwm": "components/Pwm.coffee"
+    }
+  }
+}
