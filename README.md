@@ -1,3 +1,3 @@
-# noflo-tween
+# noflo-galileo
 
-Tween components for NoFlo
+Intel Galileo Gpio/Pwm components for NoFlo.
