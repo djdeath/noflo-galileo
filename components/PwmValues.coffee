@@ -1,7 +1,7 @@
 noflo = require 'noflo'
 
 pins =
-  maxdutycycle: 500000
+  maxdutycycle: 1000000
   maxperiod: 1000000
 
 class PwmValues extends noflo.Component
