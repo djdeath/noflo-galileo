@@ -25,10 +25,10 @@ class Gpio extends noflo.Component
   constructor: ->
     @inPorts =
       start: new noflo.Port 'bang'
+    @outPorts = {}
 
     @onAttachReact = false
 
-    @outPorts = {}
     for k, v of pins
       @outPorts[k] = new noflo.Port 'number'
 
@@ -43,7 +43,7 @@ class Gpio extends noflo.Component
   enableReactOnAttach: () ->
     return if @onAttachReact
     for k of pins
-      @enableReactOnAttach(k)
+      @enablePortReactOnAttach(k)
     @onAttachReact = true
 
   enablePortReactOnAttach: (portName) ->
