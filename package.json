@@ -38,7 +38,8 @@
   "noflo": {
     "components": {
       "Gpio": "components/Gpio.coffee",
-      "Pwm": "components/Pwm.coffee"
+      "Pwm": "components/Pwm.coffee",
+      "PwmValues": "components/PwmValues.coffee"
     }
   }
 }

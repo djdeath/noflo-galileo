@@ -15,6 +15,7 @@
   "scripts": [
     "components/Gpio.coffee",
     "components/Pwm.coffee",
+    "components/PwmValues.coffee",
     "index.js"
   ],
   "json": [
@@ -23,7 +24,8 @@
   "noflo": {
     "components": {
       "Gpio": "components/Gpio.coffee",
-      "Pwm": "components/Pwm.coffee"
+      "Pwm": "components/Pwm.coffee",
+      "PwmValues": "components/PwmValues.coffee"
     }
   }
 }
