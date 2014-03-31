@@ -1,12 +1,12 @@
 noflo = require 'noflo'
 
 pins =
-  pwm1: 1
   pwm3: 3
-  pwm4: 4
   pwm5: 5
   pwm6: 6
-  pwm7: 7
+  pwm9: 1
+  pwm10: 7
+  pwm11: 4
 
 class Pwm extends noflo.Component
   description: 'Pwm pin definitions'
